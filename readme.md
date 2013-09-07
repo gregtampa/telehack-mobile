@@ -4,6 +4,8 @@ Telehack-Mobile
 Jason Max Chalom and the original telehack.com team
 See: https://github.com/telehack and www.telehack.com
 
+https://build.phonegap.com/apps/541766/builds
+
 ===========
 Opensource
 ===========
