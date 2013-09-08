@@ -46,7 +46,7 @@
 
 #vt100 #console, #vt100 #alt_console, #vt100 #cursor, #vt100 #lineheight { 
     font-size: 12pt;
-    font-family:      "Courier New", Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
 
 #vt100 #console {
