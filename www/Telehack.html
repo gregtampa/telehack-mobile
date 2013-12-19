@@ -1,15 +1,31 @@
-<!--?xml version="1.0" encoding="utf-8"?-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xml:lang="en" lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=windows-1252">
-<title>Telehack</title>
-<link rel="stylesheet" href="Telehack_files/styles.css" type="text/css">
-<script type="text/javascript">
-(function() { if (typeof navigator.appName == 'undefined' || navigator.appName != 'Netscape') { document.write('<style type="text/css">' + '#vt100 #console div, #vt100 #alt_console div {' + '  overflow: hidden;' + '}' + '</style>'); } })(); ></script>
-<script type="text/javascript" src="Telehack_files/ShellInABox.js"></script>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xml:lang="en" lang="en">
+    <head>
+              <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+              <title>Telehack</title>
+              <link rel="stylesheet" href="Telehack_files/styles.css" type="text/css">
+        <script type="text/javascript">
+            <!--
+            // We would like to hide overflowing lines as this can lead to
+            // visually jarring results if the browser substitutes oversized
+            // Unicode characters from different fonts. Unfortunately, a bug
+            // in Firefox prevents it from allowing multi-line text
+            // selections whenever we change the "overflow" style. So, only
+            // do so for non-Netscape browsers.-->
+            
+            if (typeof navigator.appName == 'undefined' ||
+                navigator.appName != 'Netscape') {
+                document.write('<style type="text/css">' +
+                    '#vt100 #console div, #vt100 #alt_console div {' +
+                    '  overflow: hidden;' +
+                    '}' +
+                    '</style>');
+            }
+        </script>
+              <script type="text/javascript" src="Telehack_files/ShellInABox.js"></script>
  
-</head>
-<body style="margin: 0px; overflow: hidden;" onload="setTimeout('new ShellInABox()', 100)" scroll="no"><noscript>
+          </head>
+    <body style="margin: 0px; overflow: hidden;" onload="setTimeout(new ShellInABox(), 100)" ><noscript>
 
     Telehack is a simulation of a sylized arpanet/usenet, circa 1985-1990.
     It is a full multi-user simulation, including 25,000 hosts and BBS's
@@ -26,9 +42,13 @@
 </pre>
 <p>
     See <a href="http://telehack.com/telehack.html">http://telehack.com/telehack.html</a> for more information about Telehack.
+    Also See <a href="http://telehack.wikia.com/wiki/Telehack_Wiki">http://telehack.wikia.com/wiki/Telehack_Wiki</a> for even more information.
+    The Wiki has Moved To <a href="https://telehack.tk/wiki">https://telehack.tk/wiki</a>
 </p>
 <p>Requires JavaScript to be Enabled</p>
 </noscript>
+        <div id ="vt100"></div>
+    
 
     </body>
 
