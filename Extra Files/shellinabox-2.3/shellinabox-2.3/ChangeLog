@@ -1,0 +1,52 @@
+2009-01-21  Markus Gutschke  <markus@shellinabox.com>
+
+	* Released version 2.3
+
+	* Fixed a show-stopper bug that broke the --cert option.
+
+2009-01-21  Markus Gutschke  <markus@shellinabox.com>
+
+	* Released version 2.2
+
+	* Fixed a bug that could result in the font getting corrupted.
+
+	* Improved compatibility with more versions of the OpenSSL library.
+	Previously, the feature test for TLSEXT did not always work correctly,
+	resulting in compilation failures.
+
+	* Improved support for embedding shellinaboxd into existing web
+	services. SSL certificates can now be passed in through a file
+	handle, and port and pid numbers can be retrieved from the CGI header.
+
+2009-01-08  Markus Gutschke  <markus@shellinabox.com>
+
+	* Released version 2.1
+
+	* Fixed build errors mostly related to x86_64.
+
+	* Added --no-beep command line option to avoid VLC plugin crashing
+	Firefox/x86_64.
+
+	* Fixed multi-line selections in Firefox.
+
+2009-01-01  Markus Gutschke  <markus@shellinabox.com>
+
+	* Added CGI mode for demand-loading the shellinaboxd daemon
+	from a web server. This also allows for the web server to
+	perform authentication, instead of having shellinaboxd do so.
+	
+	* Tightened setuid-root operation to no longer allow switching
+	to arbitrary users/groups. As before, setuid-root remains a
+	non-standard configuration that is not currently recommended.
+	
+	* Fixed session management to deal better with torn down
+	connections. Closed one bug that could have resulted in
+	permanently orphaned connections, when the browser navigated
+	away from the page.
+
+2008-12-27  Markus Gutschke  <markus@shellinabox.com>
+
+	* First public release of the version 2.0 rewrite. This is the
+	first release of ShellInABox that supports an AJAX interface
+	instead of the original Java applet.
+
