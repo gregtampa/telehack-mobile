@@ -1,14 +1,31 @@
-<!--?xml version="1.0" encoding="utf-8"?-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xml:lang="en" lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=windows-1252">
-<title>Telehack</title>
-<link rel="stylesheet" href="Telehack_files/styles.css" type="text/css">
-<script type="text/javascript"><!--
-(function() { if (typeof navigator.appName == 'undefined' || navigator.appName != 'Netscape') { document.write('<style type="text/css">' + '#vt100 #console div, #vt100 #alt_console div {' + '  overflow: hidden;' + '}' + '</style>'); } })(); --></script>
-<script type="text/javascript" src="Telehack_files/ShellInABox.js"></script>
-</head>
-<body style="margin: 0px; overflow: hidden;" onload="setTimeout('new ShellInABox()', 100)" scroll="no"><noscript>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xml:lang="en" lang="en">
+    <head>
+              <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+              <title>Telehack</title>
+              <link rel="stylesheet" href="Telehack_files/styles.css" type="text/css">
+        <script type="text/javascript">
+            <!--
+            // We would like to hide overflowing lines as this can lead to
+            // visually jarring results if the browser substitutes oversized
+            // Unicode characters from different fonts. Unfortunately, a bug
+            // in Firefox prevents it from allowing multi-line text
+            // selections whenever we change the "overflow" style. So, only
+            // do so for non-Netscape browsers.-->
+            
+            if (typeof navigator.appName == 'undefined' ||
+                navigator.appName != 'Netscape') {
+                document.write('<style type="text/css">' +
+                    '#vt100 #console div, #vt100 #alt_console div {' +
+                    '  overflow: hidden;' +
+                    '}' +
+                    '</style>');
+            }
+        </script>
+              <script type="text/javascript" src="Telehack_files/ShellInABox.js"></script>
+ 
+          </head>
+    <body style="margin: 0px; overflow: hidden;" onload="setTimeout(new ShellInABox(), 100)" ><noscript>
 
     Telehack is a simulation of a sylized arpanet/usenet, circa 1985-1990.
     It is a full multi-user simulation, including 25,000 hosts and BBS's
@@ -21,11 +38,18 @@
     Open a command shell and type
 <p>
 <pre>
-   telnet telehack.com
+    telnet telehack.com
 </pre>
 <p>
     See <a href="http://telehack.com/telehack.html">http://telehack.com/telehack.html</a> for more information about Telehack.
-<p>
+    Also See <a href="http://telehack.wikia.com/wiki/Telehack_Wiki">http://telehack.wikia.com/wiki/Telehack_Wiki</a> for even more information.
+    The Wiki has Moved To <a href="https://telehack.tk/wiki">https://telehack.tk/wiki</a>
+</p>
+<p>Requires JavaScript to be Enabled</p>
 </noscript>
+        <div id ="vt100"></div>
+    
 
-<div id="vt100"><div id="reconnect" style="visibility: hidden; left: 390px; top: 206.5px;"><input value="ConnectX" onsubmit="return false" type="button"></div><div id="cursize" style="visibility: hidden"></div><div style="visibility: hidden; top: -100px; left: -100px; width: 0px; height: 0px;" id="menu"></div><div class="" style="height: 476px;" id="scrollable"><pre id="lineheight">&nbsp;</pre><pre id="console"><div class="" style="height: 19px;"><span style="">                                                                                             </span></div><div class="" style="height: 19px;"><span style="" class="ansi0 bgAnsi15">Connected to TELEHACK port 60</span><span style="">                                                                </span></div><div class="" style="height: 19px;"><span style="">                                                                                             </span></div><div class="" style="height: 19px;"><span style="" class="ansi0 bgAnsi15">It is 7:04 am on Wednesday, September  4, 2013 in Mountain View, California, USA.</span><span style="">            </span></div><div class="" style="height: 19px;"><span style="" class="ansi0 bgAnsi15">There are 24 local users. There are 24414 hosts on the network.</span><span style="">                              </span></div><div class="" style="height: 19px;"><span style="">                                                                                             </span></div><div class="" style="height: 19px;"><span style="" class="ansi0 bgAnsi15">  Type ? for a command list.</span><span style="">                                                                 </span></div><div class="" style="height: 19px;"><span style="" class="ansi0 bgAnsi15">  Type HELP for a more detailed command listing.</span><span style="">                                             </span></div><div class="" style="height: 19px;"><span style="" class="ansi0 bgAnsi15">  Type control-C to interrupt any command.</span><span style="">                                                   </span></div><div class="" style="height: 19px;"><span style="">                                                                                             </span></div><div class="" style="height: 19px;"><span style="" class="ansi0 bgAnsi15">May the command line live forever.</span><span style="">                                                           </span></div><div class="" style="height: 19px;"><span style="">                                                                                             </span></div><div class="" style="height: 19px;"><span style="" class="ansi0 bgAnsi15">Command, one of the following:</span><span style="">                                                               </span></div><div class="" style="height: 19px;"><span style="" class="ansi0 bgAnsi15">  ac        cal       calc      cowsay    date      factor    figlet  </span><span style="">                       </span></div><div class="" style="height: 19px;"><span style="" class="ansi0 bgAnsi15">  finger    fnord     geoip     help      ipaddr    joke      login   </span><span style="">                       </span></div><div class="" style="height: 19px;"><span style="" class="ansi0 bgAnsi15">  newuser   octopus   phoon     rain      rand      starwars  units   </span><span style="">                       </span></div><div class="" style="height: 19px;"><span style="">                                                                                             </span></div><div class="" style="height: 19px;"><span style="" class="ansi0 bgAnsi15">.</span><span style="">                                                                                            </span></div></pre><pre id="alt_console" style="display: none"></pre><div style="height: 1px;" id="padding"></div><pre class="bright" style="width: 10px; height: 19px; left: 16px; top: 324px;" id="cursor"> </pre></div><div class="hidden"><div id="usercss"></div><pre><div><span id="space"></span></div></pre><input id="input" type="textfield"><input id="cliphelper" type="textfield"><bgsound id="beep_bgsound" loop="1"></div></div></body></html>
+    </body>
+
+</html>
